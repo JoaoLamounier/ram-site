@@ -1,5 +1,6 @@
 import React from "react";
 import Ram from "./vectors/navegator.svg";
+/*import { Link, animateScroll as scroll } from "react-scroll";*/
 
 export const Navbar = () => {
   return (
@@ -9,19 +10,29 @@ export const Navbar = () => {
         <div className="collapse-navbar">
           <div className="navbar-nav">
             <div className="li">
-              <div className="link">Home</div>
+              <a className="link " href=".hero">
+                Home
+              </a>
             </div>
             <div className="li">
-              <div className="link">História</div>
+              <a className="link" href=".timeline">
+                História
+              </a>
             </div>
             <div className="li">
-              <div className="link">Tipos</div>
+              <a className="link" href=".types">
+                Tipos
+              </a>
             </div>
             <div className="li">
-              <div className="link">Usabilidade</div>
+              <a className="link" href=".video">
+                Usabilidade
+              </a>
             </div>
             <div className="li">
-              <div className="link">Modelos</div>
+              <a className="link" href=".models">
+                Modelos
+              </a>
             </div>
           </div>
         </div>

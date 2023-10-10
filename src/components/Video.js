@@ -12,8 +12,8 @@ export const Video = () => {
               um pouco mais explicativo sobre?
             </p>
             <p className="paragraph">
-              Trouxemos este vídeo do canal xxxxxxx que comenta muito bem sobre
-              o assunto
+              Trouxemos este vídeo do canal Lock Gamer Hardware que comenta
+              muito bem sobre o assunto
               <br />e vai agregar muito no seu conhecimento!
             </p>
           </div>

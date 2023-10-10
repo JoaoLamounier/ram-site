@@ -7,7 +7,7 @@ export const Types = () => {
         <div className="row">
           <div className="main-content">
             <p className="h">Os três tipos de RAM</p>
-            <p className="paragraph">Uma breve explicação sobre elas</p>
+            <p className="paragraph">E algumas de suas características</p>
           </div>
         </div>
         <div className="div">
