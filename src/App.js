@@ -6,12 +6,14 @@ import Types from "./components/Types";
 import Timeline from "./components/Timeline";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Sobre from "./components/Sobre";
 
 function App() {
   return (
     <div>
       <Navbar />
       <Hero />
+      <Sobre />
       <Timeline />
       <Types />
       <Video />

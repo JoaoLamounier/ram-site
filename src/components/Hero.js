@@ -1,6 +1,6 @@
 import React from "react";
 
-const Hero = () => {
+export const Hero = () => {
   return (
     <div className="hero">
       <div className="container">
@@ -17,29 +17,17 @@ const Hero = () => {
               Entenda a evolução e função da RAM no mundo digital
             </p>
           </div>
-          <div className="card-item-wrapper">
-            <div className="card-item">
-              <p className="div">
-                O que você verá <br />
-                neste site?
-              </p>
-              <div className="summary">
-                <div className="li">
-                  <div className="link">O que é RAM?</div>
-                </div>
-                <div className="li">
-                  <div className="link">Sua história</div>
-                </div>
-                <div className="link-wrapper">
-                  <div className="link-2">Diferentes tipos de RAM</div>
-                </div>
-                <div className="link-wrapper">
-                  <div className="link-3">Principais características</div>
-                </div>
-                <div className="li">
-                  <div className="link">Preços e modelos</div>
-                </div>
-              </div>
+          <div className="card-item">
+            <p className="div">
+              O que você verá <br />
+              neste site?
+            </p>
+            <div className="summary">
+              <div className="li">O que é RAM?</div>
+              <div className="li-2">Sua história</div>
+              <div className="li-2">Diferentes tipos de RAM</div>
+              <div className="li-2">Principais características</div>
+              <div className="li-2">Videos explicativos sobre</div>
             </div>
           </div>
         </div>
