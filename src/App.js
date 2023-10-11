@@ -11,14 +11,14 @@ import Sobre from "./components/Sobre";
 function App() {
   return (
     <div>
-      <Navbar />
-      <Hero />
-      <Sobre />
-      <Timeline />
-      <Types />
-      <Video />
-      <Models />
-      <Footer />
+      <Navbar id="navbar" />
+      <Hero id="hero" />
+      <Sobre id="about" />
+      <Timeline id="timeline" />
+      <Types id="types" />
+      <Video id="video" />
+      <Models id="models" />
+      <Footer id="footer" />
     </div>
   );
 }
