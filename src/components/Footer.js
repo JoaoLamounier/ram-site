@@ -1,4 +1,6 @@
 import React from "react";
+import giticon from "./vectors/mdi_github.svg";
+import linkedinicon from "./vectors/mdi_linkedin.svg";
 
 export const Footer = () => {
   return (
@@ -8,14 +10,20 @@ export const Footer = () => {
           <div className="row">
             <div className="col-md">
               <div className="navbar-brand">
-                <div className="text-wrapper">xxxxxx</div>
+                <div className="text-wrapper">João Paulo Lamounier Silva</div>
               </div>
             </div>
-            <img className="img" alt="Col md" src="col-md-6.svg" />
+            <div className="link-wrapper">
+              <a href="https://github.com/JoaoLamounier">
+                <img className="link" alt="Col md" src={giticon} />
+              </a>
+              <a href="https://www.linkedin.com/in/joao-paulo-lamounier/">
+                <img className="link" alt="Hr" src={linkedinicon} />
+              </a>
+            </div>
           </div>
         </div>
       </div>
-      <img className="hr" alt="Hr" src="hr.svg" />
     </div>
   );
 };

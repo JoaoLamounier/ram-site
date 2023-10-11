@@ -857,9 +857,12 @@ html {
   white-space: nowrap;
 }
 
-.footer .img {
+.footer .link-wrapper {
+  padding: 24px;
+}
+.footer .link {
   position: relative;
-  width: 243px;
+  width: 42px;
 }
 
 .footer .hr {
