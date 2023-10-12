@@ -810,14 +810,26 @@ html {
   left: 50px;
   position: relative;
   top: 28px;
+  height: 30vw;
+  display: flex;
+  flex-direction: row;
 }
 .models .imgamazon {
-  padding: 2vw;
-  width: 20vw;
+  width: 15vw;
+  transition: background-color 0.3s, transform 0.3s;
+  transition: margin 0.2s ease-out;
+}
+.models .linkamazon {
+  padding: 16px;
 }
 .models .imgamazon:hover {
-  padding: 2vw;
+  color: var(--preto-texto-escuro);
+  transform: scale(1.05);
+  border-style: solid;
+  border-color: var(--cobre);
+  margin-top: 16px;
 }
+
 .models .line {
   height: 293px;
   left: 0;
