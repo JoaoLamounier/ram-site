@@ -1,6 +1,6 @@
 import React from "react";
 import Ram from "./vectors/navegator.svg";
-/*import { Link, animateScroll as scroll } from "react-scroll";*/
+import { Link, animateScroll as scroll } from "react-scroll";
 
 export const Navbar = () => {
   return (
@@ -10,29 +10,69 @@ export const Navbar = () => {
         <div className="collapse-navbar">
           <div className="navbar-nav">
             <div className="li">
-              <a className="link " href=".hero">
+              <Link
+                className="link"
+                activeClass="active"
+                to="hero"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
                 Home
-              </a>
+              </Link>
             </div>
             <div className="li">
-              <a className="link" href=".timeline">
+              <Link
+                className="link"
+                activeClass="active"
+                to="timeline"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
                 História
-              </a>
+              </Link>
             </div>
             <div className="li">
-              <a className="link" href=".types">
+              <Link
+                className="link"
+                activeClass="active"
+                to="types"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
                 Tipos
-              </a>
+              </Link>
             </div>
             <div className="li">
-              <a className="link" href=".video">
+              <Link
+                className="link"
+                activeClass="active"
+                to="video"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
                 Usabilidade
-              </a>
+              </Link>
             </div>
             <div className="li">
-              <a className="link" href=".models">
+              <Link
+                className="link"
+                activeClass="active"
+                to="models"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
                 Modelos
-              </a>
+              </Link>
             </div>
           </div>
         </div>

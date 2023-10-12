@@ -111,6 +111,7 @@ html {
   flex-direction: column;
   gap: 35px;
   position: relative;
+  padding: 16px;
 }
 
 .hero .h {
@@ -1011,6 +1012,9 @@ html {
 .navbar .li:hover {
   color: var(--preto-texto-escuro);
   transform: scale(1.05);
+  border-bottom-style: solid;
+  border-color: var(--azul);
+  cursor: pointer;
 }
 .navbar .link {
   color: var(--branco-texto-claro);
