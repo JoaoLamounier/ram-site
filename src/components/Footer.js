@@ -14,12 +14,32 @@ export const Footer = () => {
               </div>
             </div>
             <div className="link-wrapper">
-              <a href="https://github.com/JoaoLamounier">
-                <img className="link" alt="Col md" src={giticon} />
+              <a
+                href="https://github.com/JoaoLamounier"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img className="link" alt="icone git hub" src={giticon} />
               </a>
-              <a href="https://www.linkedin.com/in/joao-paulo-lamounier/">
-                <img className="link" alt="Hr" src={linkedinicon} />
+              <a
+                href="https://www.linkedin.com/in/joao-paulo-lamounier/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img className="link" alt="icone linkedin" src={linkedinicon} />
               </a>
+            </div>
+          </div>
+          <div className="text-wrapper">Referencias</div>
+          <div className="referencias">
+            <div className="bloco-referencias">
+              <p>
+                https://edisciplinas.usp.br/pluginfile.php/3248618/mod_resource/content/1/Aula%204-HistoriaDoArmazenamento.pdf
+              </p>
+              <p>https://www.adrenaline.com.br/hardware/o-que-e-memoria-ram/</p>
+            </div>
+            <div className="bloco-referencias">
+              <p>aaaaaaaaaaaaaaaaaaa</p>
             </div>
           </div>
         </div>
