@@ -9,11 +9,11 @@ export const Sobre = () => {
           <div className="main-content">
             <p className="h">Mas afinal, "RAM" não era o animal?</p>
             <p className="text-wrapper">
-              Também! mas não é desta RAM que estamos falando, na verdade
-              estamos falando da Memória de Acesso Aleatório (RAM) que é uma
-              parte essencial do computador, armazenando dados temporariamente
-              para acesso rápido. Ela desempenha um papel crucial no desempenho
-              do computador, determinando a velocidade e eficiência com que as
+              Também! mas não é desta rã que estamos falando, na verdade estamos
+              falando da Memória de Acesso Aleatório (RAM) que é uma parte
+              essencial do computador, armazenando dados temporariamente para
+              acesso rápido. Ela exerce um papel crucial no desempenho do
+              computador, determinando a velocidade e eficiência com que as
               tarefas são executadas.
             </p>
           </div>
